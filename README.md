@@ -31,6 +31,7 @@ Getting Started
 * In JIRA, navigate to Administration > Plugins > Gerrit Admin
 * Enter hostname, port, and user under the SSH section
 * Upload the SSH private key generated at (1) above
+* Add the JIRA user in the "Non-Interactive Users" group on Gerrit (Gerrit 2.11.3 needs it)
 * Optionally change the Gerrit search query patterns:
   * `tr:%s` - Look for the issue key in a "Bug:" or "Issue:" footer
   * `topic:%s` - Look for the issue key in the change Topic (uploaded using
